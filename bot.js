@@ -2,6 +2,7 @@ const botSettings = require("./botsettings.json");
 const Discord = require("discord.js");
 const bot = new  Discord.Client({disableEveryonekey: true});
 const prefix = ""
+const token = process.env.token
 const guildID = "481657489901879306"
 
 
